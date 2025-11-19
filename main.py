@@ -1,3 +1,5 @@
+from level_1 import game
+
 print("Welcome to my red thread project")
 print("""This is a text based survival adventure game, you find yourself stranded far from civilisation after a sudden and mysterious disaster. With limited supplies and
 no clear sence of what is beyond the tree line, every decision becomes a battle between instinct and uncertainty. You must explore the wilderness, scavenge for resources,
@@ -14,6 +16,7 @@ def main_menu():
 
             if choice == 1:
                 print("Starting game...")
+                game()
                 break
             elif choice == 2:
                 print("Lading overview...")
