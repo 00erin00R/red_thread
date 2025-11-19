@@ -7,7 +7,7 @@ craft makeshift tools and uncover the truth behind your isolation. Danger is con
 wilds or become another forgotten story. """)
 
 def main_menu():
-    print("\n ############################################################################################################################################################")
+    print("\n######################################################################################################")
     while True:
         print("What will u choose, 1-Play, 2-Overview, 3-Quit")
 
