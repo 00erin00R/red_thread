@@ -15,4 +15,5 @@ def game():
     starter=Character("human",70,10)
     print("Welcome to the game, you are a stranded human with limited resources. Can u make it to the next level?")
     print("######################################################################################################")
-    
+    print("Since you are new to this world, you will start with the basic human character.")
+    print(f"Your stats are as follows:", starter)
